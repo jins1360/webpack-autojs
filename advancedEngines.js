@@ -63,7 +63,7 @@ module.exports=(()=>{
         return config;
     }
     function isPro(){
-        return app.autojs.versionName.toLowerCase().indexOf("pro")!=-1
+        return app.autojs.versionName.toLowerCase().indexOf("pro")!=-1 || app.versionName.toLowerCase().indexOf("pro")!=-1
     }
     return advancedEngines
 })()
